@@ -2,6 +2,9 @@ function EducationAnalysis() {
   return (
     <div>
       <div className="row">
+        <div style={{width:"100%",height:"80vh"}}>
+        <img src="https://drive.google.com/uc?id=1jaj0-B0ah0p1xurVYsoCtjtOy0jllVig" alt="Image Description" style={{BackgroundSize:"cover"}}></img>
+        </div>
         <div>
           <p>
             India's rapid development over the last two decades is undeniable, yet the persistent issue of students leaving education prematurely
@@ -36,6 +39,11 @@ function EducationAnalysis() {
           </p>
         </div>
       </div>
+      <div className="row">
+      <div style={{width:"100%",height:"80vh"}}>
+          <img src="https://drive.google.com/uc?id=1bHQpdUJQAi8lRDTo6uh-3QDB1p5r0Pdw"></img>
+          </div>
+        </div>
       <div className="row">
         <div className="col-md-6" style={{ padding: '0 10px' }}>
           <p className="ribbon">
