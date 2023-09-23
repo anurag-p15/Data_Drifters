@@ -1,6 +1,6 @@
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 function Navbar() {
-//   const navigate = useNavigate();
+const navigate = useNavigate();
     return(
         <div>
         <nav className="navbar navbar-expand-md" style={{paddingLeft: '2%',backgroundColor:"rgb(0, 127, 125)",borderBottom:"15px solid #ee4b00"}}>
@@ -16,9 +16,9 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav  ms-auto">              
             <li className="nav-item">
-            <button style={{ textAlign: 'left',backgroundColor: 'transparent', border: 'none', cursor: 'pointer'}}>Home</button>
-            <button style={{ textAlign: 'left', backgroundColor: 'transparent', border: 'none', cursor: 'pointer'}}>Report of Education in India</button>
-            <button style={{ textAlign: 'left', backgroundColor: 'transparent', border: 'none', cursor: 'pointer'}}>Document overview</button>
+            <button onClick={() => navigate('/general')} style={{ textAlign: 'left', backgroundColor: 'transparent', border: 'none', cursor: 'pointer'}}>Report of Education in India</button>
+            <button onClick={() => navigate('/user')} style={{ textAlign: 'left', backgroundColor: 'transparent', border: 'none', cursor: 'pointer'}}>Document overview</button>
+            <button onClick={() => navigate('/home')} style={{ textAlign: 'left',backgroundColor: 'transparent', border: 'none', cursor: 'pointer'}}>Home</button>
             </li>
             </ul>
           </div>
