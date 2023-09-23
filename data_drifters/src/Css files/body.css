@@ -13,9 +13,6 @@ body{
 h4{
     text-align: center;
 }
-p{
-    font-weight:bold;
-}
 .emp-info{
     height:40vh;
   }
@@ -41,9 +38,9 @@ p{
     color:black;
   }
   p{
+    font-weight:bold;
     font-size:18px;
-    margin-left:2%;
-    margin-right:2%;
+    margin: 2% 2%;
   }
 
 /*News*/
