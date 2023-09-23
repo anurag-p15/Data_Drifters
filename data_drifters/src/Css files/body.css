@@ -64,6 +64,7 @@ p{
   
   .news-title {
     margin: 10px 0;
+    text-align: left;
   }
   
   .news-title a {
