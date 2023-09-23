@@ -5,7 +5,7 @@ const navigate = useNavigate();
         <div>
         <nav className="navbar navbar-expand-md" style={{paddingLeft: '2%',backgroundColor:"rgb(0, 127, 125)",borderBottom:"15px solid #ee4b00"}}>
       <div className="container-fluid all-show ">
-    <a className="navbar-brand" href="#"><img src="https://drive.google.com/file/d/1eLQqT_SdkkgE6ugrwAnfiWrEWEfASwqf/view?usp=sharing" style={{width:"100%",height:"100%"}}/></a>
+    <b style={{fontSize:'22px'}}>EduPulse</b>
     <section className="wrapper">
       <nav className="navbar navbar-expand-sm ">
         <div className="container-fluid ">
