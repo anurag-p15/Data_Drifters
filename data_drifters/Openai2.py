@@ -22,7 +22,7 @@ def analyze():
         prompt_with_data = f"Here is the data from the CSV file:\n{df.head()}\n\n{prompt}"
 
         # Make the OpenAI API request with a higher token limit (100)
-        openai.api_key='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'
+        openai.api_key='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'
         response = openai.Completion.create(
             engine="text-davinci-003",
             prompt=prompt_with_data,
